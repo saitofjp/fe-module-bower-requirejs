@@ -1,0 +1,7 @@
+{
+    "directory": "public/bower_components",
+    "json": "bower.json",
+    "scripts": {
+        "postinstall": "node node_modules/bower-requirejs/bin/bower-requirejs.js -c public/require-config.js"
+    }
+}
