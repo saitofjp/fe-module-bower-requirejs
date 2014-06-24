@@ -21,7 +21,7 @@ module.exports = (grunt) ->
           appDir : "public"
           baseUrl: "."
           mainConfigFile: "public/require-config.js"
-          dir :"dest"
+          dir :"dist"
           name: "main" #このモジュールにまとめられる
 
     connect:
