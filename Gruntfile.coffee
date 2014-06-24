@@ -39,5 +39,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-requirejs'
 
   # Register custom tasks
-  grunt.registerTask 'default', ['requirejs:optimize']
-  grunt.registerTask 'server', [ 'connect:server:keepalive']
+  grunt.registerTask 'server',   [ 'connect:server:keepalive']
+  grunt.registerTask 'compile',  [ 'coffee:compile"]
+  grunt.registerTask 'optimize', [ 'compile','requirejs:optimize']
