@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="requirejs-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="Generated files" level="project" />
+    <orderEntry type="library" name="fe-module-bower-requirejs node_modules" level="project" />
   </component>
 </module>
 

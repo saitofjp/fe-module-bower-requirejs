@@ -40,5 +40,5 @@ module.exports = (grunt) ->
 
   # Register custom tasks
   grunt.registerTask 'server',   [ 'connect:server:keepalive']
-  grunt.registerTask 'compile',  [ 'coffee:compile"]
+  grunt.registerTask 'compile',  [ 'coffee:compile']
   grunt.registerTask 'optimize', [ 'compile','requirejs:optimize']
