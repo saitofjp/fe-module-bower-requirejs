@@ -1,0 +1,2 @@
+fe-module-bower-requirejs
+=========================
